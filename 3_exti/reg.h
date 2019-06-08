@@ -95,11 +95,17 @@
 
 #define EXTI_IMR_OFFSET 0x00
 
+#define EXTI_MR(y) (y)
+
 #define EXTI_RTSR_OFFSET 0x08
+
+#define EXTI_TR(y) (y)
 
 #define EXTI_FTSR_OFFSET 0x0C
 
 #define EXTI_PR_OFFSET 0x14
+
+#define EXTI_PR(y) (y)
 
 //SYSCFG
 #define SYSCFG_BASE 0x40013800
